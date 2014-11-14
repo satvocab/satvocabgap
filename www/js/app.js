@@ -39,60 +39,61 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
     })
 
-.state('app.alpha', {
-	url: "/alpha",
-	views: {
-		'menuContent': {
-			templateUrl: "templates/alpha.html"
-		}
-	}
-})
-
-.state('app.random', {
-	url: "/random",
-	views: {
-		'menuContent': {
-			templateUrl: "templates/random.html"
-		}
-	}
-})
-
-.state('app.spelling', {
-	url: "/spelling",
-	views: {
-		'menuContent': {
-			templateUrl: "templates/spelling.html"
-		}
-	}
-})
-
-.state('app.tongue', {
-	url: "/tongue",
-	views: {
-		'menuContent': {
-			templateUrl: "templates/tongue.html"
-		}
-	}
-})
-
-
-.state('app.browse', {
-	url: "/browse",
-	views: {
-		'menuContent': {
-			templateUrl: "templates/browse.html"
-		}
-	}
-})
-        .state('app.playlists', {
-            url: "/playlists",
-            views: {
-                'menuContent': {
-                    templateUrl: "templates/playlists.html",
-                    controller: 'PlaylistsCtrl'
-                }
+    .state('app.alpha', {
+        url: "/alpha",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/alpha.html"
             }
-        })
+        }
+    })
+
+    .state('app.random', {
+        url: "/random",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/random.html"
+            }
+        }
+    })
+
+    .state('app.spelling', {
+        url: "/spelling",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/spelling.html"
+            }
+        }
+    })
+
+    .state('app.tongue', {
+        url: "/tongue",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/tongue.html"
+            }
+        }
+    })
+
+
+    .state('app.browse', {
+        url: "/browse",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/browse.html"
+            }
+        }
+    })
+
+    .state('app.playlists', {
+        url: "/playlists",
+        views: {
+            'menuContent': {
+                templateUrl: "templates/playlists.html",
+                controller: 'PlaylistsCtrl'
+            }
+        }
+    })
 
     .state('app.single', {
         url: "/playlists/:playlistId",
